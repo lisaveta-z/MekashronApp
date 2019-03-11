@@ -33,9 +33,6 @@ namespace MekashronApp.Controllers
         {
             //RegisterNewCustomer();
 
-            string goodMessage = "<div class=\"alert alert-dismissible alert-success\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\">&times;</button><strong>Well done!</strong> You successfully read <a href=\"#\" class=\"alert-link\">this important alert message</a>.</div>";
-            string errMessage = "<div class=\"alert alert-dismissible alert-danger\"><button type = \"button\" class=\"close\" data-dismiss=\"alert\">&times;</button><strong>Oh snap!</strong> <a href = \"#\" class=\"alert-link\">Change a few things up</a> and try submitting again.</div>";
-
             bool isSuccess = false;
             string message = ErrorMessage();
 
